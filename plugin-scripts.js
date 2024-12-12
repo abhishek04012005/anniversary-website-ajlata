@@ -1,0 +1,1 @@
+!function(a){if(a(".instagram-feed").length){var e=a(".instagram-feed").data("id"),i=a(".instagram-feed").data("token"),t=a(".instagram-feed").data("limit");new Instafeed({get:"user",userId:e,accessToken:i,resolution:"standard_resolution",limit:t,template:'<div class="instagram-items"><a href="{{link}}"><img src="{{image}}"/></a></div>'}).run()}}(window.jQuery);

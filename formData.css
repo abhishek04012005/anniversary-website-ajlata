@@ -1,0 +1,28 @@
+.myDetails {
+    /* background-color: aqua; */
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    outline: none;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+
+select {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    outline: none;
+}
+
+/* select:focus {
+    border: none;
+    border-bottom: 1px solid grey;
+} */
